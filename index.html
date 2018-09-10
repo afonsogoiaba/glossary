@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Glossário</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Glossary</h1>
+
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#project">Project</a></li>
+					<li><a href="#glossário">Glossary</a></li>
+					<li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<section class="home" id="home">
+				<div class="esquerda">
+					<div class="chapter">
+						<h2><b>Chapter 1: The start!</b></h2>
+						<p>Language is something important in every way, because without it the human being would not be able to think. The knowledge of the most varied sciences comes from the study of language. this is the beginning of everything and for this to happen, it is necessary to study as words.</p>	
+					</div>
+					
+				</div>
+
+				<div class="direita">
+					<div class="chapter">
+						<h2><b>Chapter 2: Why study?</b></h2>
+						<p>Today there are many languages ​​on the planet. English is one of the most spoken languages ​​on the planet, being present in 60 countries of the world. The study of language, therefore, becomes important for the communication of the human being in the most varied situations.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="project" id="project">
+				<div class="card">
+					<h2>Why did we do this?</h2>
+					<p>We students know how difficult it is when we do not understand a subject.That's why we came up with the idea of ​​creating a glossary that will help online students with English difficulties.We know that for some people it is difficult to learn another language, however, to help these language adventurers, we have created a glossary loaded with words to be studied.<b>Let's see how this works!</b></p>	
+				</div>
+				
+				<div class="instructions">
+					<div class="formulary">
+						<h3>Add a word</h3>
+						<p>Add words to our glossary! get others to learn from you.</p>
+
+						<a id="form" href="#formulary">Click here</a>
+					</div>
+
+					<div class="search">
+						<h3>Search word</h3>
+						<p>Are you having difficulties? do not worry, look for a word right here!</p>
+
+						<a id="form2" href="#pesquisa">Click here</a>
+					</div>
+
+					<div class="list">
+						<h3>List word</h3>
+						<p>See all words that are in our database. Have a good time!</p>
+
+						<a id="form3" href="#lista">Click here</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="formu" id="formulary">
+
+				<div class="explication">
+					<h2>Chapter 3: now it's your turn!</h2>
+					<p>Make it worth it! Show what is capable to the world and be proactive. Studies reveal that when a person explains something to another person, it ends up refining their thinking and finding easier ways to arrive at a particular answer. The fixation of content for those who share their knowledge is 80% higher in comparison to those who keep things to themselves. Enjoy, free your knowledge!</p>
+				</div>
+				<div class="form" id="cadastro">
+					<form class="cadastro">
+						<h2>Register a word!</h2>
+						<div class="container-entrada">
+							<label for="word">Word:</label>
+							<input type="text" id="word">
+				
+						</div>
+
+						<div class="container-entrada">
+							<label for="example">Example:</label>
+							<input type="text" id="example">
+						</div>
+
+						<a id="cadastrarPalavra" href="#home">Register</a>
+					</form>
+				</div>
+
+				<!-- depois que o cara registra uma palavra no localstorage, acho que só um alert ja ta de boa falando que foi cadastrada com sucesso -->
+			</section>
+
+			<section class="procura" id="search">
+
+				<div class="explication">
+					<h2>Chapter 3: now it's your turn!</h2>
+					<p></p>
+				</div>
+
+				<div class="form" id="pesquisa">
+					<form class="cadastro">
+						<h2>Find a word!</h2>
+						<div class="container-entrada">
+							<label for="wordSearch">Word:</label>
+							<input type="text" id="wordSearch">
+						</div>
+
+						<a id="pesquisarPalavra" href="#pesquisa">Search</a>
+					</form>
+				</div>
+				<!-- Aqui tem que aparecer um imput pro cara pesquisar alguma palavra e dar ok. A palavra deve aparecer nessa section também -->
+			</section>
+
+			<section class="lista" id="list">
+				<!-- aqui tem que aparecer todas as palavras do banco -->
+			</section>
+		</main>
+
+		<footer id="about">
+			<div class="pessoas">
+				<p class="um">Design criado e desenvolvido por <b>Afonso Barbosa</b></p>
+				<p class="dois">Sistema implementado por <b>Jonatas Asato</b></p>
+				<p class="tres">palavras e exemplos por <b>Igor quevedo e Pablo Goettert</b></p>
+			</div>
+				<h3>&copy;todos os direitos reservados</h3>
+		</footer>
+
+		<script src="js/classPalavra.js"></script>
+		<script src="js/storage.js"></script>
+		<script src="js/effect-roll.js"></script>
+		<script src="js/interactionBtnForm.js"></script>
+		<script src="js/interactionBtnForm2.js"></script>
+		<script src="js/cadastrarPalavra.js"></script>
+		<script src="js/searchWord.js"></script>
+	</body>
+</html>
