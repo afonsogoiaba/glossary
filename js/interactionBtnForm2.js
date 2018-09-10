@@ -3,8 +3,8 @@ document.getElementById('form2').onclick = function(){
 	`<section class="procura" id="search">
 
 		<div class="explication">
-			<h2>Chapter 3: now it's your turn!</h2>
-			<p></p>
+			<h2>Chapter 4: increase your knowledge!</h2>
+					<p>Researching words that have difficulty, learning becomes easier as you begin to better understand what you are studying. Never forget, what you've learned one day will be with you forever, even after a long time.</p>
 		</div>
 
 		<div class="form" id="pesquisa">

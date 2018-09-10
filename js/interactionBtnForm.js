@@ -12,9 +12,13 @@ document.getElementById('form').onclick = function(){
 				<div class="container-entrada">
 					<label for="word">Word:</label>
 					<input type="text" id="word">
-		
 				</div>
 
+				<div class="container-entrada">
+					<label	for="definicao">Definition </label>
+					<input type="text" id="definicao">
+				</div>
+				
 				<div class="container-entrada">
 					<label for="example">Example:</label>
 					<input type="text" id="example">
