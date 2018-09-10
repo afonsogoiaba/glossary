@@ -12,10 +12,10 @@ document.getElementById('form2').onclick = function(){
 				<h2>Find a word!</h2>
 				<div class="container-entrada">
 					<label for="wordSearch">Word:</label>
-					<input type="text" id="wordSearch">
+					<input type="text" id="wordSearch" name="wordSearch">
 				</div>
 
-				<a id="pesquisarPalavra" href="#cap3">Search</a>
+				<a id="pesquisarPalavra" onclick="searchWord(wordSearch.value)" href="#cap3">Search</a>
 			</form>
 		</div>
 		

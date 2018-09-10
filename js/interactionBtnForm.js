@@ -24,7 +24,7 @@ document.getElementById('form').onclick = function(){
 					<input type="text" id="example">
 				</div>
 
-				<a id="cadastrarPalavra" href="#home">Register</a>
+				<a id="cadastrarPalavra" onclick="cadastrarPalavra()" href="#home">Register</a>
 			</form>
 		</div>
 

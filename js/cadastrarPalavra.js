@@ -1,4 +1,4 @@
-document.getElementById('cadastrarPalavra').onclick = function () {
+function cadastrarPalavra () {
 	var word = document.querySelector("#word").value;
 	var definition = document.querySelector('#definicao').value;
 	var example = document.querySelector("#example").value;
@@ -11,8 +11,10 @@ document.getElementById('cadastrarPalavra').onclick = function () {
 
 		alert('Word added successfully');
 
-		document.getElementById('formulary').style.display = 'none';
+		document.getElementById('cap3').innerHTML = '';
 	} catch (err) {
 		alert(err);
 	}
+
+	alert('funciona ....................');
 }
