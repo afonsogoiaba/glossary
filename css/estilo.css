@@ -331,14 +331,15 @@ footer h3{
 
 .um,
 .dois,
-.tres{
+.tres,
+.quatro{
 	text-align: center;
 	padding: 0.4rem;
-	width: 20%;
+	width: 15%;
 	border-right: solid 1px rgb(255,255,255);
 }
 
-.tres{
-	width: 30%;
+.quatro{
+	width: 20%;
 	border: none;
 }
