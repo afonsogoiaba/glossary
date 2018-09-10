@@ -1,6 +1,6 @@
-function cadastrarPalavra () {
+function cadastro(){
 	var word = document.querySelector("#word").value;
-	var definition = document.querySelector('#definicao').value;
+	var definition = document.querySelector("#definition").value;
 	var example = document.querySelector("#example").value;
 	try {
 		if (word == "" || word == " " || definition == "" || definition == " " || example == "" || example == " ") throw 'empty';
@@ -11,10 +11,8 @@ function cadastrarPalavra () {
 
 		alert('Word added successfully');
 
-		document.getElementById('cap3').innerHTML = '';
+		limpar();
 	} catch (err) {
 		alert(err);
 	}
-
-	alert('funciona ....................');
 }

@@ -15,7 +15,7 @@ document.getElementById('form2').onclick = function(){
 					<input type="text" id="wordSearch" name="wordSearch">
 				</div>
 
-				<a id="pesquisarPalavra" onclick="searchWord(wordSearch.value)" href="#cap3">Search</a>
+				<a id="pesquisarPalavra" href="#cap3" onclick="pesquisa()">Search</a>
 			</form>
 		</div>
 		
@@ -26,7 +26,6 @@ document.getElementById('form2').onclick = function(){
 	search.style.display = 'flex';
 
 	document.getElementById('search').style.height = '65vh';
-	// document.getElementById('search').style.flexDirection = 'column';
 	document.getElementById('search').style.justifyContent = 'center';
 	document.getElementById('search').style.alignItems = 'center';
 }	
