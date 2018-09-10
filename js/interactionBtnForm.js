@@ -16,7 +16,7 @@ document.getElementById('form').onclick = function(){
 
 				<div class="container-entrada">
 					<label	for="definicao">Definition </label>
-					<input type="text" id="definicao">
+					<input type="text" id="definition">
 				</div>
 				
 				<div class="container-entrada">
@@ -24,7 +24,7 @@ document.getElementById('form').onclick = function(){
 					<input type="text" id="example">
 				</div>
 
-				<a id="cadastrarPalavra" href="#home">Register</a>
+				<a id="cadastrarPalavra" href="#formulary" onclick="cadastro()">Register</a>
 			</form>
 		</div>
 

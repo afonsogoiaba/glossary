@@ -1,8 +1,9 @@
-document.querySelector('#pesquisarPalavra').onclick = function (palavra) {
+function pesquisa(){
 	var word = document.querySelector('#wordSearch').value;
 	if (word != "") {
 		let banco = new Banco('Glossario');
 		banco.buscar(word);
-	}
 
+		console.log(word);
+	}
 }

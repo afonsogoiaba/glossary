@@ -1,16 +1,19 @@
-document.getElementById('cadastrarPalavra').onclick = function () {
+function cadastro(){
 	var word = document.querySelector("#word").value;
+	var definition = document.querySelector("#definition").value;
 	var example = document.querySelector("#example").value;
 	try {
-		if (word == "" || word == " " || example == "" || example == " ") throw 'empty';
+		if (word == "" || word == " " || definition == "" || definition == " " || example == "" || example == " ") throw 'empty';
 
-		let palavra = new Palavra(word, example);
+		let palavra = new Palavra(word, definition, example);
 		let banco = new Banco('Glossario');
 		banco.inserir(palavra);
 
 		alert('Word added successfully');
 
-		document.getElementById('formulary').style.display = 'none';
+		// document.getElementById('formulary').style.display = 'none';
+
+		limpar();
 	} catch (err) {
 		alert(err);
 	}

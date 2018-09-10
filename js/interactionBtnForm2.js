@@ -15,7 +15,7 @@ document.getElementById('form2').onclick = function(){
 					<input type="text" id="wordSearch">
 				</div>
 
-				<a id="pesquisarPalavra" href="#cap3">Search</a>
+				<a id="pesquisarPalavra" href="#cap3" onclick="pesquisa()">Search</a>
 			</form>
 		</div>
 		
