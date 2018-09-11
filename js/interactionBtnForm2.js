@@ -15,11 +15,11 @@ document.getElementById('form2').onclick = function(){
 					<input type="text" id="wordSearch" name="wordSearch">
 				</div>
 
-				<a id="pesquisarPalavra" href="#cap3" onclick="pesquisa()">Search</a>
+				<a id="pesquisarPalavra" href="#cap3" onclick="pesquisa(wordSearch.value)">Search</a>
 			</form>
 		</div>
 
-		<div class="mostrador" id="mostrador"></div>
+		<div class="mostrador" id="mostrador" name="mostrador"></div>
 		
 	</section>`
 

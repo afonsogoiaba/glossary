@@ -1,5 +1,4 @@
-function pesquisa(){
-	var word = document.querySelector('#wordSearch').value;
+function pesquisa(word){
 	if (word != "" && word != " ") {
 		let banco = new Banco('Glossario');
 		banco.buscar(word);
