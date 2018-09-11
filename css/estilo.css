@@ -345,12 +345,8 @@ nav a:hover{
 	font-weight: bold;
 }
 
-.explication{
-	width: 50%;
-}
-
-.form{
-	width: 50%;
+.mostrador{
+	display: none;
 }
 
 .mostrador{
@@ -359,19 +355,20 @@ nav a:hover{
 }
 
 .mostrador h2{
-	font-size: 1.6rem;
 	margin-bottom: 10px;
 }
 
 .mostrador p{
 	width: 80%;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	margin: 0 auto;
 	margin-bottom: 30px;
 }
 
 .mostrador h3{
-	font-size: 0.96rem;
+	font-size: 1rem;
+	width: 80%;
+	margin: 0 auto;
 }
 
 

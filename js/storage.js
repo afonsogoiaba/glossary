@@ -13,12 +13,16 @@ class Banco{
 		this.dados = JSON.parse(localStorage.getItem(this.nomeBanco));
 		for(var i = 0; i< this.dados.length; i++){
 			if(this.dados[i].palavra == dado){
-				alert(dado)
 				let mostrador = document.querySelector('#mostrador')
 				mostrador.innerHTML = `
 					<h2>${this.dados[i].palavra}</h2>
 					<p>${this.dados[i].definicao}</p>
 					<h3><i>${this.dados[i].exemplo}</i></h3>`
+
+				document.querySelector(".explication").style.width = '50%';
+				document.querySelector(".explication").style.marginLeft = '20px';
+				document.querySelector(".form").style.width = '60%';
+				document.querySelector("#mostrador").style.display = 'block';
 			}
 		}
 	}
