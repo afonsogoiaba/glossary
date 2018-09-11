@@ -28,7 +28,7 @@ class Banco{
 				<div class="listItem">
 					<h2>${palavra.palavra}</h2>
 					<p>${palavra.definicao}</p>
-					<h3>${palavra.exemplo}</h3>
+					<h3><i>${palavra.exemplo}</i></h3>
 				</div>`;
 		});
 	}
