@@ -18,6 +18,8 @@ document.getElementById('form2').onclick = function(){
 				<a id="pesquisarPalavra" href="#cap3" onclick="pesquisa()">Search</a>
 			</form>
 		</div>
+
+		<div class="mostrador" id="mostrador"></div>
 		
 	</section>`
 

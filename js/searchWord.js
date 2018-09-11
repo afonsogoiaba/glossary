@@ -4,5 +4,4 @@ function pesquisa(){
 		let banco = new Banco('Glossario');
 		banco.buscar(word);
 	}
-		console.log(word);
 }

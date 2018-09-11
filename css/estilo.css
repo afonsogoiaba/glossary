@@ -343,9 +343,37 @@ nav a:hover{
 .listItem h3{
 	font-size: 1rem;
 	font-weight: bold;
-
-
 }
+
+.explication{
+	width: 50%;
+}
+
+.form{
+	width: 50%;
+}
+
+.mostrador{
+	width: 50%;
+	text-align: center;
+}
+
+.mostrador h2{
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+}
+
+.mostrador p{
+	width: 80%;
+	font-size: 1rem;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.mostrador h3{
+	font-size: 0.96rem;
+}
+
 
 footer{
 	background: rgba(0,0,0,0.9);
